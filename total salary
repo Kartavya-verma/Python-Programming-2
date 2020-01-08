@@ -1,0 +1,8 @@
+s = int(input("enter salary:"))
+if(s<=10000):
+    new_s = s+(s*0.1)
+elif(s<=20000):
+    new_s = s+(s*0.2)
+elif(s>=20000):
+    new_s = s+(s*0.3)
+print("Total Salary = ",new_s) 
