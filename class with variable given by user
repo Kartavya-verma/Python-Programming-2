@@ -1,0 +1,10 @@
+class sample:
+    pass
+
+obj1 = sample()
+obj1.name = input("Enter your name :")
+obj1.age = int(input("Enter your age :"))
+obj1.rollno = int(input("Enter rollno :"))
+print(obj1.name)
+print(obj1.age)
+print(obj1.rollno)
