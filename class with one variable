@@ -1,0 +1,5 @@
+class sample:
+    name = "hello"
+
+obj1 = sample()
+print(obj1.name)
