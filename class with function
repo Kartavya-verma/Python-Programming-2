@@ -1,0 +1,10 @@
+class sample:
+    def set_value(self,x):
+        self.x = int(input("Enter the value :"))
+    def get_value(self):
+        print("x = ",self.x)
+                      
+
+obj1 = sample()
+obj1.set_value(3)
+obj1.get_value()
