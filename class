@@ -1,0 +1,23 @@
+class sample:
+    def get_value(self,name,age,city):
+        self.name = name
+        self.age = age
+        self.city = city       
+                   
+
+obj1 = sample()
+obj2 = sample()
+obj3 = sample()
+
+obj1.get_value("rahul",18,"indore")
+
+obj2.get_value("robin",19,"bhopal")
+
+obj3.get_value("gaurav",20,"indore")
+
+if(obj1.city=="indore"):
+    print(obj1.name)
+elif(obj2.city=="indore"):
+    print(obj2.name)
+elif(obj3.city=="indore"):
+    print(obj3.name) 
