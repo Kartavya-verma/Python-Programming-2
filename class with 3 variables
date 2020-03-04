@@ -1,0 +1,9 @@
+class sample:
+    name = "Harshala"
+    age = 20
+    rollno = 87
+
+obj1 = sample()
+print(obj1.name)
+print(obj1.age)
+print(obj1.rollno)
