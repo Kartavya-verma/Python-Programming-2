@@ -1,0 +1,8 @@
+class String:
+    def reverse_string(self,s):
+        for i in range(len(s),0,-1):
+            print(s[i-1])
+
+obj1 = String()
+s = input("Enter String : ")
+obj1.reverse_string(s)
